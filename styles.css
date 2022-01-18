@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: "Josefin Sans", sans-serif; */
+  
+}
+a{
+    text-decoration: none;
+    font-weight:700;
+    font-size: 1 rem;
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    background-color:rgb(247, 240, 240);
+     box-shadow: 2px 3px 5px 0 rgba(0,0,0,.3);
+     font-family: "Montserrat", sans-serif;
+}
+.container h2{
+    font-size: 2 rem;
+    font-weight: bold;
+}
+
+.nav-links{
+    display:flex;
+    width:40%;
+    justify-content:space-between;
+}
+.nav-links a:hover{
+    color:rgb(145, 145, 218);
+}
+
+.container{
+    width: 100%;
+    height: 85vh;
+   font-family: "Montserrat", sans-serif;
+}
+.bg-color{
+    /* width:100%; */
+
+    display:flex;
+    justify-content:center;
+    font-weight:700;
+    align-items:center;
+    margin-top:20%;
+    background-color:rgb(31, 28, 28);
+    padding: 2% 4%;
+    width:40%;
+    text-align:center;
+    margin-left:35%;
+    color:white;
+    border-radius:2%;
+}
+.btn-hero{
+    padding: 1% 2%;
+    box-shadow: 0 1px 3px rgba(0, 5, 2, 0.2);
+}
+.button-class{
+   /* position:absolute;
+   top:65%;
+   left:48%;
+   bottom:70%;
+   right:50%; */
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   margin-top:2%;
+   margin-left:8%;
+   font-size: 1.5rem;
+   
+
+}
+button{
+    border-radius:10%;
+    font-size:1.2rem;
+    font-weight:600;
+    /* background-color:white; */
+    cursor:pointer;
+    
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
